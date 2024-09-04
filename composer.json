@@ -1,0 +1,25 @@
+{
+    "name": "miracle/roles-permissions",
+    "description": "laravel role and permission package",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Miracle\\RolesPermissions\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "miracle\\RolesPermissions\\RolesPermissionsServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "narpat miracle"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
